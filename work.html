@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — Ugochukwu David Egere</title>
+<meta name="description" content="Documented case studies from Ugochukwu David Egere — hardware troubleshooting, network diagnostics, automation, and more.">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .proj-card { padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+  .proj-tag { font-size: 11.5px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.08em; color: var(--accent); text-transform: uppercase; }
+  .proj-pending {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; color: #d4a24c; background: rgba(212,162,76,0.1);
+    border: 1px solid rgba(212,162,76,0.25); padding: 6px 12px; border-radius: 20px;
+    width: fit-content;
+  }
+  .proj-pending .dot { width: 6px; height: 6px; border-radius: 50%; background: #d4a24c; }
+</style>
+</head>
+<body>
+<div class="ambient-glow"></div>
+
+<!-- NAV -->
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand">
+    <span class="n1">UDE.</span>
+    <span class="n2">SecureWithDavid</span>
+  </a>
+  <div class="nav-center">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="certifications.html">Certifications</a></li>
+      <li><a href="work.html">Work</a></li>
+    </ul>
+  </div>
+  <div class="nav-right">
+    <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+    </button>
+    <a href="https://wa.me/2349013162477?text=Hi%20Ugochukwu%2C%20I%20found%20your%20portfolio%20and%20I%27d%20like%20to%20talk%20about%20a%20role%2Fproject." target="_blank" rel="noopener noreferrer" class="nav-cta">Hire me</a>
+    <button class="nav-burger" data-burger aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" data-mobile-menu>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="certifications.html">Certifications</a>
+  <a href="work.html">Work</a>
+</div>
+
+<!-- HEADER -->
+<div class="page-header">
+  <div class="eyebrow">Selected Work</div>
+  <h1>Documented fixes, <span>not just claims.</span></h1>
+  <p>Real projects and problems solved — each one written up so you can see exactly how I think and work.</p>
+</div>
+
+<!-- WORK GRID -->
+<section style="padding-top:20px;">
+  <div class="section-inner" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;">
+
+    <!-- 1: Hardware / BSOD -->
+    <div class="glass reveal proj-card">
+      <div class="proj-tag">Hardware Troubleshooting</div>
+      <h3 style="font-size:18px;">Diagnosing a Recurring Blue Screen of Death</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A documented, step-by-step root-cause investigation into a recurring BSOD — from initial symptoms to the fix.</p>
+      <!-- TODO: paste GitHub repo link in the href below, then delete the .proj-pending span -->
+      <span class="proj-pending"><span class="dot"></span>GitHub link pending</span>
+      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View on GitHub ↗</a>
+    </div>
+
+    <!-- 2: Networking / DNS -->
+    <div class="glass reveal reveal-delay-1 proj-card">
+      <div class="proj-tag">Network Diagnostics</div>
+      <h3 style="font-size:18px;">DNS Resolution Project</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">Diagnosing and resolving a DNS-level connectivity issue, documented from investigation through resolution.</p>
+      <!-- TODO: paste GitHub repo link in the href below, then delete the .proj-pending span -->
+      <span class="proj-pending"><span class="dot"></span>GitHub link pending</span>
+      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View on GitHub ↗</a>
+    </div>
+
+    <!-- 3: Ticketing -->
+    <div class="glass reveal reveal-delay-2 proj-card">
+      <div class="proj-tag">Ticketing &amp; Helpdesk</div>
+      <h3 style="font-size:18px;">Ticketing Software Case Resolution</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A documented support ticket resolved end-to-end — diagnosis, action taken, and outcome.</p>
+      <!-- TODO: paste GitHub repo link in the href below, then delete the .proj-pending span -->
+      <span class="proj-pending"><span class="dot"></span>GitHub link pending</span>
+      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View on GitHub ↗</a>
+    </div>
+
+    <!-- 4: Automation / Sheets -->
+    <div class="glass reveal proj-card">
+      <div class="proj-tag">Scripting &amp; Automation</div>
+      <h3 style="font-size:18px;">Team Data Tracking System</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A Google Sheets script that automates collecting worker-submitted data, with role-based visibility so management sees a controlled view.</p>
+      <!-- TODO: paste redacted demo sheet link in the href below, then delete the .proj-pending span -->
+      <span class="proj-pending"><span class="dot"></span>Demo link pending</span>
+      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View Demo ↗</a>
+    </div>
+
+    <!-- 5: Automation / Website -->
+    <div class="glass reveal reveal-delay-1 proj-card">
+      <div class="proj-tag">Scripting &amp; Automation</div>
+      <h3 style="font-size:18px;">Business Website Build</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A website built end-to-end as part of a business automation effort.</p>
+      <!-- TODO: paste website link in the href below, then delete the .proj-pending span -->
+      <span class="proj-pending"><span class="dot"></span>Link pending</span>
+      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">Visit Site ↗</a>
+    </div>
+
+    <!-- 6: User Training -->
+    <div class="glass reveal reveal-delay-2 proj-card">
+      <div class="proj-tag">User Training &amp; Guidance</div>
+      <h3 style="font-size:18px;">Configuring 30+ PCs for a Student Team Meeting</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">Video walkthrough of configuring over 30 PCs so students could join a team meeting for studies.</p>
+      <!-- TODO: paste YouTube link in the href below, then delete the .proj-pending span -->
+      <span class="proj-pending"><span class="dot"></span>YouTube link pending</span>
+      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">Watch Video ↗</a>
+    </div>
+
+    <!-- 7: Cybersecurity Awareness — already linkable -->
+    <div class="glass reveal proj-card">
+      <div class="proj-tag">Cybersecurity Awareness</div>
+      <h3 style="font-size:18px;">Google Cybersecurity Professional Certificate</h3>
+      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">The credential underpinning my approach to everyday cybersecurity awareness and safe practice.</p>
+      <a href="https://www.credly.com/badges/7de047a4-4183-48b1-9640-5bb148a694b5/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content:center;">View Credential ↗</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="n1">UDE.</div>
+      <p>Ugochukwu David Egere — Technical Support Engineer &amp; Cybersecurity Professional. Founder, SecureWithDavid Tech Hub.</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/egere" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+        <a href="https://www.youtube.com/@SECUREWITHDAVID" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
+        <a href="mailto:egereugochukwu@gmail.com" aria-label="Email">✉</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="work.html">Work</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:egereugochukwu@gmail.com">egereugochukwu@gmail.com</a>
+      <a href="tel:+2349013162477">+234 901 316 2477</a>
+      <span class="fline">Port Harcourt, Rivers State, Nigeria</span>
+      <a href="https://wa.me/2349013162477" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Ugochukwu David Egere. All rights reserved.</span>
+    <span>SecureWithDavid Tech Hub</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
