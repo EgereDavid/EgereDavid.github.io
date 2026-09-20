@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Work — Ugochukwu David Egere</title>
-<meta name="description" content="Documented case studies from Ugochukwu David Egere — hardware troubleshooting, network diagnostics, automation, and more.">
+<title>Proof of Work | Ugochukwu David Egere</title>
+<meta name="description" content="Documented proof of work from Ugochukwu David Egere: cybersecurity audit artifacts, technical support projects, and security-conscious web development.">
 <link rel="stylesheet" href="css/style.css">
 <style>
   .proj-card { padding: 28px; display: flex; flex-direction: column; gap: 14px; }
@@ -16,6 +16,15 @@
     width: fit-content;
   }
   .proj-pending .dot { width: 6px; height: 6px; border-radius: 50%; background: #d4a24c; }
+  .capability-tag {
+    display: inline-block; font-size: 11px; color: var(--text-faint);
+    font-family: 'JetBrains Mono', monospace; margin-bottom: 2px;
+  }
+  .group-label {
+    font-size: 12.5px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text-faint); margin-bottom: 18px; padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
 </style>
 </head>
 <body>
@@ -32,8 +41,9 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Proof of Work</a></li>
       <li><a href="certifications.html">Certifications</a></li>
-      <li><a href="work.html">Work</a></li>
+      <li><a href="tech-hub.html">Tech Hub</a></li>
     </ul>
   </div>
   <div class="nav-right">
@@ -49,89 +59,194 @@
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
   <a href="services.html">Services</a>
+  <a href="work.html">Proof of Work</a>
   <a href="certifications.html">Certifications</a>
-  <a href="work.html">Work</a>
+  <a href="tech-hub.html">Tech Hub</a>
 </div>
 
 <!-- HEADER -->
 <div class="page-header">
-  <div class="eyebrow">Selected Work</div>
-  <h1>Documented fixes, <span>not just claims.</span></h1>
-  <p>Real projects and problems solved — each one written up so you can see exactly how I think and work.</p>
+  <div class="eyebrow">Proof of Work</div>
+  <h1>Documented work, <span>not just claims.</span></h1>
+  <p>Real projects and practical exercises, organized by capability, so you can see exactly how I think and work.</p>
 </div>
 
-<!-- WORK GRID -->
-<section style="padding-top:20px;">
-  <div class="section-inner" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px;">
-
-    <!-- 1: Hardware / BSOD -->
-    <div class="glass reveal proj-card">
-      <div class="proj-tag">Hardware Troubleshooting</div>
-      <h3 style="font-size:18px;">Diagnosing a Recurring Blue Screen of Death</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A documented, step-by-step root-cause investigation into a recurring BSOD — from initial symptoms to the fix.</p>
-      <!-- TODO: paste GitHub repo link in the href below, then delete the .proj-pending span -->
-      <span class="proj-pending"><span class="dot"></span>GitHub link pending</span>
-      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View on GitHub ↗</a>
+<!-- CYBERSECURITY PROOF -->
+<section id="cybersecurity" style="padding-top:10px;">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">Cybersecurity</div>
+      <h2>Audit, risk, <span>and incident response.</span></h2>
+      <p>Practical exercises applying an audit and risk assessment approach. These are training-grounded artifacts, offered as free resources, not formal client audit reports.</p>
     </div>
 
-    <!-- 2: Networking / DNS -->
-    <div class="glass reveal reveal-delay-1 proj-card">
-      <div class="proj-tag">Network Diagnostics</div>
-      <h3 style="font-size:18px;">DNS Resolution Project</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">Diagnosing and resolving a DNS-level connectivity issue, documented from investigation through resolution.</p>
-      <!-- TODO: paste GitHub repo link in the href below, then delete the .proj-pending span -->
-      <span class="proj-pending"><span class="dot"></span>GitHub link pending</span>
-      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View on GitHub ↗</a>
+    <div class="group-label">Audit &amp; Risk Assessment</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-bottom:44px;">
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">Risk Assessment</div>
+        <span class="capability-tag">Capability: risk identification &amp; prioritization</span>
+        <h3 style="font-size:16.5px;">Risk Assessment Write-Up</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A practical risk assessment exercise, shared as a LinkedIn post.</p>
+        <a href="https://lnkd.in/p/dPr9kxNV" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">View Resource ↗</a>
+      </div>
+      <div class="glass reveal reveal-delay-1 proj-card">
+        <div class="proj-tag">Vulnerability Assessment</div>
+        <span class="capability-tag">Capability: vulnerability identification</span>
+        <h3 style="font-size:16.5px;">Main Vulnerability Assessment</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A structured vulnerability assessment exercise covering system description and findings.</p>
+        <a href="https://docs.google.com/document/d/16xJ9xmcgG1k03fq6vk7Ivyefs4vm2OShF2j98Bs4COc/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">Get Your Copy ↗</a>
+      </div>
+      <div class="glass reveal reveal-delay-2 proj-card">
+        <div class="proj-tag">Access Control</div>
+        <span class="capability-tag">Capability: access control assessment</span>
+        <h3 style="font-size:16.5px;">Access Control Assessment</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">An assessment exercise focused on access control review.</p>
+        <a href="https://docs.google.com/document/d/1eDlEHb_g2h1FASNZviAxAFuOYqmMTtAs6XZBwkzWZ5I/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">Get Your Copy ↗</a>
+      </div>
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">Data Security</div>
+        <span class="capability-tag">Capability: data security review</span>
+        <h3 style="font-size:16.5px;">Data Leak Worksheet</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A worksheet exercise on identifying and addressing data leak risk.</p>
+        <a href="https://docs.google.com/document/d/1Km9gxiH769L0MwSa13klLQ2tjx85EuAGzXZnZLzmUC4/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">Get Your Copy ↗</a>
+      </div>
     </div>
 
-    <!-- 3: Ticketing -->
-    <div class="glass reveal reveal-delay-2 proj-card">
-      <div class="proj-tag">Ticketing &amp; Helpdesk</div>
-      <h3 style="font-size:18px;">Ticketing Software Case Resolution</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A documented support ticket resolved end-to-end — diagnosis, action taken, and outcome.</p>
-      <!-- TODO: paste GitHub repo link in the href below, then delete the .proj-pending span -->
-      <span class="proj-pending"><span class="dot"></span>GitHub link pending</span>
-      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View on GitHub ↗</a>
+    <div class="group-label">Incident Response</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-bottom:34px;">
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">Incident Response</div>
+        <span class="capability-tag">Capability: incident handling considerations</span>
+        <h3 style="font-size:16.5px;">Incident Handling Journal</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A journal-style exercise working through incident handling considerations.</p>
+        <a href="https://docs.google.com/document/d/1GlAX-llS1x9FTxaOy6QNpZ3Tn34TadcLkGH92S4mcuM/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">Get Your Copy ↗</a>
+      </div>
     </div>
 
-    <!-- 4: Automation / Sheets -->
-    <div class="glass reveal proj-card">
-      <div class="proj-tag">Scripting &amp; Automation</div>
-      <h3 style="font-size:18px;">Team Data Tracking System</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A Google Sheets script that automates collecting worker-submitted data, with role-based visibility so management sees a controlled view.</p>
-      <!-- TODO: paste redacted demo sheet link in the href below, then delete the .proj-pending span -->
-      <span class="proj-pending"><span class="dot"></span>Demo link pending</span>
-      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">View Demo ↗</a>
+    <div style="text-align:center;" class="reveal">
+      <a href="https://wa.me/2349013162477?text=Hi%20Ugochukwu%2C%20I%27d%20like%20to%20book%20a%20Cybersecurity%20Assessment." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Book a Cybersecurity Assessment</a>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNICAL SUPPORT PROOF -->
+<section id="technical-support" style="background:var(--bg-soft);">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">Technical Support</div>
+      <h2>Real fixes, <span>documented end to end.</span></h2>
     </div>
 
-    <!-- 5: Automation / Website -->
-    <div class="glass reveal reveal-delay-1 proj-card">
-      <div class="proj-tag">Scripting &amp; Automation</div>
-      <h3 style="font-size:18px;">Business Website Build</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">A website built end-to-end as part of a business automation effort.</p>
-      <!-- TODO: paste website link in the href below, then delete the .proj-pending span -->
-      <span class="proj-pending"><span class="dot"></span>Link pending</span>
-      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">Visit Site ↗</a>
+    <div class="group-label">Projects</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-bottom:44px;">
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">Hardware Troubleshooting</div>
+        <span class="capability-tag">Capability: root-cause hardware diagnosis</span>
+        <h3 style="font-size:16.5px;">Diagnosing a Recurring Blue Screen of Death</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A documented, step-by-step root-cause investigation into a recurring BSOD, from initial symptoms to the fix.</p>
+        <a href="https://github.com/EgereDavid/Windows-Kernel-BSOD-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">View on GitHub ↗</a>
+      </div>
+      <div class="glass reveal reveal-delay-1 proj-card">
+        <div class="proj-tag">Network Diagnostics</div>
+        <span class="capability-tag">Capability: network &amp; DNS troubleshooting</span>
+        <h3 style="font-size:16.5px;">DNS Resolution Project</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">Diagnosing and resolving a DNS-level connectivity issue, documented from investigation through resolution.</p>
+        <a href="https://github.com/EgereDavid/DNS-Connectivity-Log" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">View on GitHub ↗</a>
+      </div>
+      <div class="glass reveal reveal-delay-2 proj-card">
+        <div class="proj-tag">Ticketing &amp; Helpdesk</div>
+        <span class="capability-tag">Capability: structured ticket resolution</span>
+        <h3 style="font-size:16.5px;">Ticketing Software Case Resolution</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A documented support ticket resolved end to end: diagnosis, action taken, and outcome.</p>
+        <a href="https://github.com/EgereDavid/Hardware-troubleshooting-Resolved-ticket" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">View on GitHub ↗</a>
+      </div>
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">User Training &amp; Guidance</div>
+        <span class="capability-tag">Capability: deployment &amp; end-user support at scale</span>
+        <h3 style="font-size:16.5px;">Deploying a 30-Endpoint Network Integrated with Microsoft Teams</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">Deployed and secured a 30-endpoint network infrastructure integrated with Microsoft Teams, configuring over 30 PCs so students could join team meetings for their studies.</p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <a href="https://youtu.be/qgyfpGc0EB4?si=UkX0wCsVFQ5orObP" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="flex:1; justify-content:center;">Full Video ↗</a>
+          <a href="https://youtube.com/shorts/HXfBOXo4YQ8" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="flex:1; justify-content:center;">Short ↗</a>
+        </div>
+      </div>
+      <div class="glass reveal reveal-delay-1 proj-card">
+        <div class="proj-tag">Scripting &amp; Automation</div>
+        <span class="capability-tag">Capability: workflow automation</span>
+        <h3 style="font-size:16.5px;">Team Data Tracking System</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A Google Sheets script automating the collection of worker-submitted data, with role-based visibility so management sees a controlled view.</p>
+        <span class="proj-pending"><span class="dot"></span>Demo link pending</span>
+      </div>
     </div>
 
-    <!-- 6: User Training -->
-    <div class="glass reveal reveal-delay-2 proj-card">
-      <div class="proj-tag">User Training &amp; Guidance</div>
-      <h3 style="font-size:18px;">Configuring 30+ PCs for a Student Team Meeting</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">Video walkthrough of configuring over 30 PCs so students could join a team meeting for studies.</p>
-      <!-- TODO: paste YouTube link in the href below, then delete the .proj-pending span -->
-      <span class="proj-pending"><span class="dot"></span>YouTube link pending</span>
-      <a href="#" class="btn btn-outline" style="pointer-events:none; opacity:0.5; justify-content:center;">Watch Video ↗</a>
+    <div class="group-label">Security Awareness / Technical Environment</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-bottom:34px;">
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">Security Awareness</div>
+        <span class="capability-tag">Capability: removable media &amp; user-behavior risk awareness</span>
+        <h3 style="font-size:16.5px;">USB Parking Lot Exercise</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A practical exercise demonstrating awareness of security risks tied to removable media and everyday user behavior in IT environments.</p>
+        <a href="https://docs.google.com/document/d/1Vt_hyYUFHkFFT6qOTNDCgDf_VyF7UBNei2w_drnrQ1c/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">Get Your Copy ↗</a>
+      </div>
     </div>
 
-    <!-- 7: Cybersecurity Awareness — already linkable -->
-    <div class="glass reveal proj-card">
-      <div class="proj-tag">Cybersecurity Awareness</div>
-      <h3 style="font-size:18px;">Google Cybersecurity Professional Certificate</h3>
-      <p style="color:var(--text-dim); font-size:14px; flex-grow:1;">The credential underpinning my approach to everyday cybersecurity awareness and safe practice.</p>
-      <a href="https://www.credly.com/badges/7de047a4-4183-48b1-9640-5bb148a694b5/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content:center;">View Credential ↗</a>
+    <div style="text-align:center;" class="reveal">
+      <a href="https://wa.me/2349013162477?text=Hi%20Ugochukwu%2C%20I%27d%20like%20to%20request%20Technical%20Support." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Request Technical Support</a>
+    </div>
+  </div>
+</section>
+
+<!-- WEB DEVELOPMENT PROOF -->
+<section id="web-development">
+  <div class="section-inner">
+    <div class="section-head reveal">
+      <div class="eyebrow">Web Development</div>
+      <h2>Building with <span>security in mind.</span></h2>
+      <p>I don't just build websites. I think about protecting what I develop.</p>
     </div>
 
+    <div class="group-label">Security-Conscious Development</div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-bottom:30px;">
+      <div class="glass reveal proj-card">
+        <div class="proj-tag">Application Security</div>
+        <span class="capability-tag">Capability: security-aware web development thinking</span>
+        <h3 style="font-size:16.5px;">PASTA / Web Application Security Exercise</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A worksheet applying a threat-modeling approach to prioritizing security checks while building web applications.</p>
+        <a href="https://docs.google.com/document/d/1B_FHl0WAAKXeZRZ974MC9MqNyfaHQ0x3b9qr79zYpEI/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content:center;">Get Your Copy ↗</a>
+      </div>
+      <div class="glass reveal reveal-delay-1 proj-card">
+        <div class="proj-tag">Live Example</div>
+        <span class="capability-tag">Capability: end-to-end website delivery</span>
+        <h3 style="font-size:16.5px;">This Website</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">Built, deployed, and maintained end to end. The site you're looking at right now is itself a working example.</p>
+        <span class="tag" style="display:inline-block;">✔ Live example</span>
+      </div>
+      <div class="glass reveal reveal-delay-2 proj-card">
+        <div class="proj-tag">Business Build</div>
+        <span class="capability-tag">Capability: client-ready website delivery</span>
+        <h3 style="font-size:16.5px;">Business Website Build</h3>
+        <p style="color:var(--text-dim); font-size:13.5px; flex-grow:1;">A website built end to end as part of a business's online presence.</p>
+        <span class="proj-pending"><span class="dot"></span>Link pending</span>
+      </div>
+    </div>
+
+    <p style="color:var(--text-dim); font-size:13.5px; margin-bottom:24px;">Need more experienced, hands-on help applying this to your own project?</p>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="https://wa.me/2349013162477?text=Hi%20Ugochukwu%2C%20I%27d%20like%20to%20start%20a%20Web%20Project." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Start a Web Project</a>
+      <a href="https://wa.me/2349013162477?text=Hi%20Ugochukwu%2C%20I%27d%20like%20to%20book%20a%20session%20on%20security-conscious%20web%20development." target="_blank" rel="noopener noreferrer" class="btn btn-outline">Book a Session</a>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATION -->
+<section style="background:var(--bg-soft);">
+  <div class="section-inner glass reveal" style="padding:36px 6%; display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;">
+    <div>
+      <div class="proj-tag" style="margin-bottom:8px;">Cybersecurity Awareness</div>
+      <h3 style="font-size:17px; margin-bottom:6px;">Google Cybersecurity Professional Certificate</h3>
+      <p style="color:var(--text-dim); font-size:14px;">The credential underpinning the approach used across the cybersecurity work above.</p>
+    </div>
+    <a href="https://www.credly.com/badges/7de047a4-4183-48b1-9640-5bb148a694b5/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="flex-shrink:0;">View Credential ↗</a>
   </div>
 </section>
 
@@ -140,7 +255,7 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <div class="n1">UDE.</div>
-      <p>Ugochukwu David Egere — Technical Support Engineer &amp; Cybersecurity Professional. Founder, SecureWithDavid Tech Hub.</p>
+      <p>Ugochukwu David Egere, Technical Support Engineer &amp; Cybersecurity Professional. Founder, SecureWithDavid Tech Hub.</p>
       <div class="footer-social">
         <a href="https://www.linkedin.com/in/egere" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
         <a href="https://www.youtube.com/@SECUREWITHDAVID" target="_blank" rel="noopener noreferrer" aria-label="YouTube">▶</a>
@@ -152,8 +267,9 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="services.html">Services</a>
+      <a href="work.html">Proof of Work</a>
       <a href="certifications.html">Certifications</a>
-      <a href="work.html">Work</a>
+      <a href="tech-hub.html">Tech Hub</a>
     </div>
     <div class="footer-col">
       <h4>Contact</h4>
